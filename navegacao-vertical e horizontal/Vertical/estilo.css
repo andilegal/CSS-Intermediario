@@ -1,0 +1,39 @@
+/* Barra de navegacao verical */
+/*ul{
+	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	padding :10px 20px;
+
+	background: url('imagem/seta.png') no-repeat left center;
+}*/
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul a{
+	width:200px ;
+	height: 40px;
+	
+	background: #f7b600 url('imagem/menu.png') no-repeat left ;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+}
+a:hover {
+	background-position: right ;
+	color: #fff;
+	background-color: #f99200;
+}
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+ #servicos #navegacao .servicos a{
+background-position: right ;
+	color: #fff;
+	background-color: #f99200;
+}
